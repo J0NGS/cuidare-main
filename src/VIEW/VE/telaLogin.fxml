@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.FrontController">
+   <children>
+      <ImageView id="container superior" fitHeight="73.0" fitWidth="600.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@container%20superior.png" />
+         </image>
+      </ImageView>
+      <ImageView id="cuidare_full_logo" fitHeight="149.0" fitWidth="281.0" layoutX="168.0" layoutY="-40.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@cuidare_full_logo.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="251.0" fitWidth="249.0" layoutX="177.0" layoutY="99.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@CONTAINER%20LOGIN.png" />
+         </image>
+      </ImageView>
+      <Button id="entrar" fx:id="botãoLogin" layoutX="254.0" layoutY="305.0" mnemonicParsing="false" onAction="#autenticar" prefHeight="25.0" prefWidth="95.0" style="-fx-background-color: #FFFFFF;" text="ENTRAR" />
+      <TextField fx:id="login" layoutX="205.0" layoutY="192.0" prefHeight="25.0" prefWidth="190.0" />
+      <ImageView fitHeight="31.0" fitWidth="166.0" layoutX="242.0" layoutY="113.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@login.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="17.0" fitWidth="119.0" layoutX="257.0" layoutY="169.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@usuário.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="17.0" fitWidth="75.0" layoutX="262.0" layoutY="236.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@senha.png" />
+         </image>
+      </ImageView>
+      <TextField fx:id="senha" layoutX="205.0" layoutY="257.0" prefHeight="25.0" prefWidth="190.0" />
+      <Label layoutX="259.0" layoutY="369.0" prefHeight="17.0" prefWidth="86.0" text="© equipe treze" />
+      <Label fx:id="erroAut" layoutX="229.0" layoutY="284.0" style="-: none;" text="usuário ou senha incorretos!" textFill="#280000" visible="false" />
+   </children>
+</Pane>

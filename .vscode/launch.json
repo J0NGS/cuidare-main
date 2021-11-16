@@ -1,0 +1,57 @@
+{
+    // Use o IntelliSense para saber mais sobre os atributos possíveis.
+    // Focalizar para exibir as descrições dos atributos existentes.
+    // Para obter mais informações, acesse: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch telaLogin",
+            "request": "launch",
+            "mainClass": "VIEW.telaLogin",
+            "projectName": "cuidare-main_a30e7635"
+        },
+        {
+            "type": "java",
+            "name": "Launch testeBO",
+            "request": "launch",
+            "mainClass": "Model.BO.testeBO",
+            "projectName": "cuidare_8c2e6b74"
+        },
+        {
+            "type": "java",
+            "name": "Launch telaLogin",
+            "request": "launch",
+            "mainClass": "VIEW.telaLogin",
+            "projectName": "cuidare_e4f1580e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Teste",
+            "request": "launch",
+            "mainClass": "Model.DAO.Teste",
+            "projectName": "cuidare_8c2e6b74"
+        },
+        {
+            "type": "java",
+            "name": "Launch telaLogin",
+            "request": "launch",
+            "mainClass": "VIEW.telaLogin",
+            "projectName": "cuidare_8c2e6b74",
+            "vmArgs": "--module-path G:/Documentos/UFERSA/Disciplinas/POO/Cuidare/Repositorios/cuidare/lib/javafx-sdk-17.0.1/lib --add-modules=javafx.graphics"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch Teste",
+            "request": "launch",
+            "mainClass": "Model.DAO.Teste",
+            "projectName": "cuidare att dao_1b5ca4e7"
+        }
+    ]
+}

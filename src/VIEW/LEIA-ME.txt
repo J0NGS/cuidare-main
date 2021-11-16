@@ -1,0 +1,5 @@
+OBS.: 
+
+As telas podem ser abertas por meio do TelaLogin.java, apenas trocando o endereço em getResource(),
+consegui abrir depois de muitas dificuldades com o javafx, tendo até mesmo que recorrer ao monitor
+Vinícius George. deixarei um print no pacote VIEW demonstrando a tela de login.
