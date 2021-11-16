@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch testeBO",
+            "request": "launch",
+            "mainClass": "Model.BO.testeBO",
+            "projectName": "cuidare-main_a30e7635"
+        },
+        {
+            "type": "java",
             "name": "Launch telaLogin",
             "request": "launch",
             "mainClass": "VIEW.telaLogin",
